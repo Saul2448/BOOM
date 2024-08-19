@@ -50,20 +50,20 @@ body, ul, li, p, a, label, input, div {
 }
 .logo { font-weight: 500 !important;}
 .text-warning { color: #695FA8 !important;}
-.text-muted { color: #bcbcbc !important;}
+.text-muted { color: hsl(280, 5%, 88%) !important;}
 .text-success { color: #695FA8 !important;}
-.text-light { color: #cfd6e1 !important;}
+.text-light { color: #695FA8 !important;}
 .bg-dark { background-color: #212934 !important;}
-.bg-light { background-color: #e9eef5 !important;}
+.bg-light { background-color: #e2e0e3 !important;}
 .bg-black { background-color: #1d242d !important;}
-.bg-success { background-color: #695dac !important;}
+.bg-success { background-color: #695FA8 !important;}
 .btn-success {
-  background-color: #9992CA !important;
+  background-color: #96aacf !important;
   border-color: #9992CA !important;
 }
 .pagination .page-link:hover { color: #000; }
 .pagination .page-link:hover, .pagination .page-link.active {
-  background-color: #745d9e;
+  background-color: #1b469a;
   color: #fff;
 }
 
@@ -71,7 +71,8 @@ body, ul, li, p, a, label, input, div {
 #templatemo_nav_top { min-height: 40px; }
 #templatemo_nav_top * { font-size: .9em !important; }
 #templatemo_main_nav a { color: #212934; }
-#templatemo_main_nav a:hover { color: #6853a3; }
+#templatemo_main_nav a:hover {background: rgb(226,224,227);
+  background: linear-gradient(0deg, rgba(226,224,227,1) 0%, rgba(105,95,168,1) 0%);; }
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px; }
 
 /* Estilos del formulario de inicio de sesión */
@@ -80,7 +81,8 @@ body, ul, li, p, a, label, input, div {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #695dac; /* Fondo morado */
+  background: rgb(226,224,227);
+  background: linear-gradient(0deg, rgba(226,224,227,1) 0%, rgba(105,95,168,1) 57%); /* Fondo morado */
   padding: 20px;
 }
 
