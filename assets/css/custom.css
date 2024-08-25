@@ -13,4 +13,24 @@ Custom Css
     cursor: pointer;   
 
   }
+/* Estilos para el elemento que desencadena la aparición de la lista */
+.trigger {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer; /* Cambia el cursor a una mano para indicar que se puede interactuar */
+}
 
+/* Estilos para la lista que se mostrará */
+.tooltip-list {
+  position: absolute; /* Posición absoluta para que se muestre encima de la página */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none; /* Ocultamos la lista por defecto */
+}
+
+/* Estilos para mostrar la lista cuando se pasa el cursor por encima del elemento */
+.trigger:hover + .tooltip-list {
+  display: block; /* Mostramos la lista cuando se pasa el cursor por encima del elemento */
+}
