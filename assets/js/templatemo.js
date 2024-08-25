@@ -63,3 +63,8 @@ $(document).ready(function() {
     // End roduct detail
 
 });
+$('.trigger').hover(function() {
+  $(this).next('.tooltip-list').fadeIn(); // Mostramos la lista con una animación de fadeIn
+}, function() {
+  $(this).next('.tooltip-list').fadeOut(); // Ocultamos la lista con una animación de fadeOut
+});

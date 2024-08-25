@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mostrar lista al hacer clic</title>
+ 
+</head>
+<body>
+ 
+  <script>
+    const boton = document.getElementById('mostrarListaBtn');
+    const lista = document.getElementById('miLista');
+
+    boton.addEventListener('click', () => {
+      // Alternar la visibilidad de la lista
+      if (lista.style.display === 'none') {
+        lista.style.display = 'block';
+      } else {
+        lista.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
